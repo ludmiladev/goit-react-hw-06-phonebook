@@ -1,0 +1,11 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.input {
+  width: 200px;
+  border: 1px solid #883636;
+  padding: 10px;
+}
