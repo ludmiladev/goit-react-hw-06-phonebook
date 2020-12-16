@@ -6,22 +6,7 @@ import styles from './App.module.css';
 import Logo from '../Logo/Logo';
 
 class App extends Component {
-  state = {
-    isVisible: false,
-    filter: '',
-    };
-
-  componentDidMount() {
-    this.setState({isVisible: true});
-    
-  }
-
-  setFilter = ({ target }) => {
-    this.setState({
-      filter: target.value,
-    });
-  };
-
+ 
   render() {
     return (
       <div className={styles.container}>
@@ -35,13 +20,3 @@ class App extends Component {
   }
 }
 export default App;
-    
-
-       
-         
-        
-        
-          
-        
-        
-

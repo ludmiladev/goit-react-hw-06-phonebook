@@ -27,7 +27,7 @@ const contactsReducer = createReducer(initialState.contacts, {
 
 const filterReducer = createReducer(initialState.filter, {
   [filterContact]: (state, { payload }) => {
-    return (state = payload);
+    return (payload);
   },
 });
 
